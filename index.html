@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>William Amiko | Portofolio</title>
+
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="shortcut icon" href="dist/assets/images/favicon.png" type="image/x-icon">
+
+    <script disable-devtool-auto src="dist/js/disable-devtool.js"></script>
+</head>
+<body class="text-default tracking-wide">
+
+<!--======================  SplashScreen Section  ======================-->
+<div class="splashscreen w-full fixed top-0 left-0 z-50">
+    <svg class="splashscreen-svg">
+        <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+            William Amiko
+        </text>
+    </svg>
+</div>
+
+<main class="hidden">
+    <!--======================  Navbar Section  ======================-->
+    <nav class="fixed top-0 left-0 z-10 flex justify-between items-center py-[1.65rem] pl-12 pr-12 lg:pr-20 xl:pr-20 2xl:pr-20 w-full bg-white shadow-[0_0_10px_rgba(0,0,0,.09)]">
+        <h1 class="hero-dev text-xl lg:text-lg xl:text-lg 2xl:text-lg">William.dev</h1>
+        <ul class="hidden justify-center items-center gap-5 text-base font-bold md:flex lg:flex xl:flex 2xl:flex">
+            <li><a href="#beranda" class="hover:text-primary">Beranda</a></li>
+            <li><a href="#tentang" class="hover:text-primary">Tentang</a></li>
+            <li><a href="#proyek" class="hover:text-primary">Proyek</a></li>
+            <li><a href="#kontak" class="hover:text-primary">Kontak</a></li>
+        </ul>
+        <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24" height="24"
+                fill="none"
+                viewBox="0 0 24 24"
+                class="flex md:hidden lg:hidden xl:hidden 2xl:hidden"
+                id="hamburger"
+        >
+            <path fill="currentColor" fill-rule="evenodd" d="M3 8a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1m0 8a1 1 0 0 1 1-1h10a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1" clip-rule="evenodd"></path>
+        </svg>
+    </nav>
+
+    <!--======================  Sidebar Section  ======================-->
+    <nav id="sidebar" class="fixed top-0 -left-full h-screen bg-white z-50 w-full flex flex-col transition-all duration-200 ease-in-out">
+        <span id="close" class="w-full flex justify-end pt-[1.65rem] pr-12 lg:pr-20 xl:pr-20 2xl:pr-20">
+            <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30" height="30"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+            >
+                <path d="M18 6l-12 12"></path>
+                <path d="M6 6l12 12"></path>
+            </svg>
+        </span>
+        <ul class="flex flex-col justify-center items-center h-full gap-10 text-2xl font-bold">
+            <li><a href="#beranda" class="hover:text-primary">Beranda</a></li>
+            <li><a href="#tentang" class="hover:text-primary">Tentang</a></li>
+            <li><a href="#proyek" class="hover:text-primary">Proyek</a></li>
+            <li><a href="#kontak" class="hover:text-primary">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!--======================  Hero Section  ======================-->
+    <section id="beranda" class="flex justify-center items-center bg-[#f9f9f9] min-h-screen pb-16 lg:pb-0 xl:pb-0 2xl:pb-0">
+        <div class="container flex flex-col gap-20 px-12">
+            <div class="flex justify-center items-center relative">
+                <div class="flex flex-col-reverse justify-center items-center relative gap-20 lg:flex-row xl:flex-row 2xl:flex-row">
+                    <div class="flex flex-col relative w-[30rem] gap-10 text-center lg:text-start xl:text-start 2xl:text-start lg:gap-7 xl:gap-7 2xl:gap-7">
+                        <h1 class="hero-dev text-5xl leading-[3.75rem]">Full Stack Web Developer 🚀</h1>
+                        <b class="capitalize text-2xl lg:text-base xl:text-base 2xl:text-base">~ zero mistakes and nevertheless</b>
+                        <p class="mt-2 text-2xl lg:text-base xl:text-base 2xl:text-base">Hi, I'm William Amiko. A passionate Full Stack Web Developer.</p>
+                    </div>
+                    <div class="hero-img order-1 relative w-80 h-80 border-[3px] border-default"></div>
+                </div>
+            </div>
+            <div class="flex flex-col justify-center items-center relative gap-10 lg:flex-row xl:flex-row 2xl:flex-row lg:gap-0 xl:gap-0 2xl:gap-0">
+                <b class="text-start border-[#2d2e3280] text-2xl lg:text-base xl:text-base 2xl:text-base mr-0 lg:mr-4 xl:mr-4 xxl:mr-4 pr-0 lg:pr-6 xl:pr-6 xxl:pr-6 border-b-2 lg:border-b-0 xl:border-b-0 xxl:border-b-0 border-r-0 lg:border-r-2 xl:border-r-2 xxl:border-r-2">Skills</b>
+                <div>
+                    <ul class="flex justify-center items-center flex-wrap">
+                        <li><img class="my-6 mx-2 xl:mx-4 2xl:mx-4 " src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind" alt="skill-icon"></li>
+                        <li><img class="my-6 mx-2 xl:mx-4 2xl:mx-4" src="https://skillicons.dev/icons?i=js,php,ruby,rust" alt="skill-icon"></li>
+                        <li><img class="my-6 mx-2 xl:mx-4 2xl:mx-4" src="https://skillicons.dev/icons?i=nuxt,laravel,rails,actix" alt="skill-icon"></li>
+                        <li><img class="my-6 mx-2 xl:mx-4 2xl:mx-4" src="https://skillicons.dev/icons?i=mysql,postgres" alt="skill-icon"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--======================  Tentang Section  ======================-->
+    <section id="tentang" class="flex justify-center items-center bg-white min-h-screen pt-8 pb-16 lg:pb-0 xl:pb-0 2xl:pb-0 lg:pt-0 xl:pt-0 2xl:pt-0">
+        <div class="container flex flex-col gap-11 px-12">
+            <div class="flex flex-col justify-center items-center gap-16 lg:flex-row xl:flex-row 2xl:flex-row lg:gap-20 xl:gap-20 2xl:gap-20">
+                <div class="bg-gradient-to-b from-[#bbf7d0] to-[#86efac] flex justify-center items-center relative mt-6 w-96 h-96 rounded-full shadow-lg">
+                    <div class="logo w-44 h-44 mb-5"></div>
+                    <div class="text absolute w-full h-full">
+                        <p>WILLIAM AMIKO - FULL STACK WEB DEVELOPER -</p>
+                    </div>
+                </div>
+                <article class="flex flex-col gap-6 lg:w-[33rem] xl::w-[33rem] xxl::w-[33rem] flex-wrap mt-6">
+                    <h3 class="hero-dev text-2xl">Tentang Saya</h3>
+                    <div class="border-default border-l-4 pl-7">
+                        <ul class="flex flex-col gap-2">
+                            <li><b class="text-4xl text-primary">S1 - Teknik Informatika</b></li>
+                            <li>Universitas Putra Indonesia "YPTK" Padang</li>
+                            <li>Nov 2020 - Mei 2024</li>
+                        </ul>
+                    </div>
+                    <p class="text-default/70 mt-2">
+                        Sebagai lulusan baru dengan antusiasme yang tinggi dalam mengembangkan keterampilan pemrograman,
+                        saya memiliki komitmen yang kuat untuk belajar dan tumbuh dalam peran Full Stack Web Developer.
+                    </p>
+                    <p class="text-default/70">
+                        Saya sangat bersemangat untuk mengaplikasikan pengetahuan saya dalam
+                        lingkungan kerja yang nyata dan berkontribusi pada proyek-proyek yang menantang.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!--======================  Proyek Section  ======================-->
+    <section id="proyek" class="flex flex-col justify-center items-center gap-20 bg-[#f9f9f9] min-h-screen py-32">
+        <h1 class="hero-dev text-center text-4xl pt-0 lg:pt-8 xl:pt-8 2xl:pt-8">Proyek Akademik</h1>
+        <div class="container flex justify-center flex-wrap gap-16 px-14 w-full">
+            <!--======================  William Amiko | Portofolio  ======================-->
+            <div class="flex flex-col justify-center w-[42rem] items-center gap-10 border-2 py-11 px-8 rounded-md shadow-lg">
+                <img
+                    src="dist/assets/images/my_portofolio.png"
+                    alt="William Amiko | Portofolio"
+                    class="border rounded-md shadow-lg w-[42rem]"
+                    height="360"
+                >
+                <article class="flex flex-col gap-4 flex-wrap">
+                    <h3 class="hero-dev text-primary text-2xl">William Amiko | Portofolio</h3>
+                    <h4 class="hero-dev text-xl pb-2">Tech Stack</h4>
+                    <div class="flex flex-wrap gap-6">
+                        <img class="w-36 my-0.5" src="https://skillicons.dev/icons?i=html,css,tailwind" alt="skill-icon">
+                        <img class="w-11 my-0.5" src="https://skillicons.dev/icons?i=js" alt="skill-icon">
+                    </div>
+                    <p class="text-default/70 mt-6 border-default border-l-4 pl-7 text-wrap">
+                        William Amiko | Portofolio adalah situs yang berfungsi sebagai etalase digital untuk menampilkan
+                        keahlian dan proyek dari William Amiko sebagai full stack web developer. Melalui portofolio ini,
+                        pengunjung dapat mengeksplorasi berbagai proyek yang telah diselesaikan, meninjau keahlian teknis
+                        yang dikuasai, dan memahami pendekatan kreatif yang diterapkan.
+                    </p>
+                </article>
+            </div>
+
+            <!--======================  Consio  ======================-->
+            <div class="flex flex-col justify-center w-[42rem] items-center gap-10 border-2 py-11 px-8 rounded-md shadow-lg">
+                <video class="border rounded-md shadow-lg w-[42rem]" height="360" controls>
+                    <source src="dist/assets/video/Consio.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <article class="flex flex-col gap-4 flex-wrap">
+                    <h3 class="hero-dev text-primary text-2xl">Consio</h3>
+                    <h4 class="hero-dev text-xl pb-2">Tech Stack</h4>
+                    <div class="flex flex-wrap gap-6">
+                        <img class="w-48 my-0.5" src="https://skillicons.dev/icons?i=html,css,bootstrap,electron" alt="skill-icon">
+                        <img class="w-36 my-0.5" src="https://skillicons.dev/icons?i=js,ruby,rails" alt="skill-icon">
+                        <img class="w-11 my-0.5" src="https://skillicons.dev/icons?i=mysql" alt="skill-icon">
+                    </div>
+                    <p class="text-default/70 mt-6 border-default border-l-4 pl-7 text-wrap">
+                        Consio adalah aplikasi pendukung keputusan yang menggunakan algoritma Weight Aggregated Sum
+                        Product Assesment (WASPAS). Dibangun dengan teknologi seperti HTML, CSS, Bootstrap, Electron.js,
+                        JavaScript, Ruby on Rails, dan MySQL. Aplikasi ini dirancang khusus untuk SMP Frater Padang untuk
+                        membantu mengambil keputusan yang lebih informasional dan beralasan.
+                    </p>
+                </article>
+            </div>
+
+            <!--======================  Claudio  ======================-->
+            <div class="flex flex-col justify-center w-[42rem] items-center gap-10 border-2 py-11 px-8 rounded-md shadow-lg">
+                <video class="border rounded-md shadow-lg w-[42rem]" height="360" controls>
+                    <source src="dist/assets/video/Claudio.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <article class="flex flex-col gap-4 flex-wrap">
+                    <h3 class="hero-dev text-primary text-2xl">Claudio</h3>
+                    <h4 class="hero-dev text-xl pb-2">Tech Stack</h4>
+                    <div class="flex flex-wrap gap-6">
+                        <img class="w-48 my-0.5" src="https://skillicons.dev/icons?i=html,css,tailwind,nuxt" alt="skill-icon">
+                        <img class="w-36 my-0.5" src="https://skillicons.dev/icons?i=ts,rust,actix" alt="skill-icon">
+                        <img class="w-11 my-0.5" src="https://skillicons.dev/icons?i=postgres" alt="skill-icon">
+                    </div>
+                    <p class="text-default/70 mt-6 border-default border-l-4 pl-7">
+                        Claudio adalah situs yang menggunakan logika fuzzy dengan algoritma Tsukamoto untuk menghasilkan
+                        keputusan yang akurat. Dibangun dengan tech stack modern seperti HTML, CSS, Tailwind CSS, Nuxt.js,
+                        TypeScript, Rust, Actix-Web, dan PostgreSQL. Dengan Rust dan Actix-Web di sisi server, Claudio
+                        menjanjikan kinerja tinggi dan keamanan yang solid.
+                    </p>
+                </article>
+            </div>
+
+            <!--======================  Gotapedia  ======================-->
+            <div class="flex flex-col justify-center w-[42rem] items-center gap-10 border-2 py-11 px-8 rounded-md shadow-lg">
+                <video class="border rounded-md shadow-lg w-[42rem]" height="360" controls>
+                    <source src="dist/assets/video/Gotapedia.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <article class="flex flex-col gap-4 flex-wrap">
+                    <h3 class="hero-dev text-primary text-2xl">Gotapedia</h3>
+                    <h4 class="hero-dev text-xl pb-2">Tech Stack</h4>
+                    <div class="flex flex-wrap gap-6">
+                        <img class="w-48 my-0.5" src="https://skillicons.dev/icons?i=html,css,tailwind,jquery" alt="skill-icon">
+                        <img class="w-24 my-0.5" src="https://skillicons.dev/icons?i=js,php" alt="skill-icon">
+                        <img class="w-11 my-0.5" src="https://skillicons.dev/icons?i=mysql" alt="skill-icon">
+                    </div>
+                    <p class="text-default/70 mt-6 border-default border-l-4 pl-7 text-wrap">
+                        Gotapedia adalah sebuah situs sistem pendukung keputusan yang menggunakan kombinasi sequence algoritma Rank
+                        Order Centroid (ROC) dan Weight Aggregated Sum Product Assesment (WASPAS) untuk analisis yang akurat.
+                        Dibangun menggunakan HTML, CSS, Tailwind CSS, jQuery, JavaScript, PHP, dan MySQL, Gotapedia menawarkan
+                        pengalaman interaktif bagi pengguna.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!--======================  Kontak Section  ======================-->
+    <section id="kontak" class="flex flex-col justify-between items-center bg-white min-h-screen w-full">
+        <div class="flex justify-center items-center gap-32 flex-col w-full min-h-[calc(100vh-4rem)] pt-16 pb-8 lg:pt-0 xl:pt-0 2xl:pt-0 lg:pb-0 xl:pb-0 2xl:pb-0">
+            <div class="flex flex-col text-center gap-5">
+                <h1 class="hero-dev text-4xl pt-8">Kontak Saya</h1>
+                <p class="text-default font-semibold">Don't be shy! Hit me up! 👇</p>
+            </div>
+            <div class="flex flex-col justify-center items-center gap-24 xl:flex-row 2xl:flex-row xl:gap-44 2xl:gap-44">
+                <!--======================  Telepon  ======================-->
+                <div class="flex flex-col justify-center items-center gap-2.5">
+                    <a href="tel:+6282170928096" target="_blank">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="w-20 h-20 fill-blue-600 transition-all duration-200 ease-in-out hover:fill-blue-800"
+                            viewBox="0 0 256 256"
+                        >
+                            <path d="M224,154.8l-47.09-21.11-.18-.08a19.94,19.94,0,0,0-19,1.75,13.08,13.08,0,0,0-1.12.84l-22.31,19c-13-7.05-26.43-20.37-33.49-33.21l19.06-22.66a11.76,11.76,0,0,0,.85-1.15,20,20,0,0,0,1.66-18.83,1.42,1.42,0,0,1-.08-.18L101.2,32A20.06,20.06,0,0,0,80.42,20.15,60.27,60.27,0,0,0,28,80c0,81.61,66.39,148,148,148a60.27,60.27,0,0,0,59.85-52.42A20.06,20.06,0,0,0,224,154.8ZM176,204A124.15,124.15,0,0,1,52,80,36.29,36.29,0,0,1,80.48,44.46l18.82,42L80.14,109.28a12,12,0,0,0-.86,1.16A20,20,0,0,0,78,130.08c9.42,19.28,28.83,38.56,48.31,48A20,20,0,0,0,146,176.63a11.63,11.63,0,0,0,1.11-.85l22.43-19.07,42,18.81A36.29,36.29,0,0,1,176,204Z"></path>
+                        </svg>
+                    </a>
+                    <h3 class="text-lg hero-dev text-blue-600">Telepon</h3>
+                    <p class="text-lg mt-3">+62 821 7092 8096</p>
+                </div>
+
+                <!--======================  Google Mail  ======================-->
+                <div class="flex flex-col justify-center items-center gap-2.5">
+                    <a href="mailto:amikowilliam@gmail.com" target="_blank">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="w-20 h-20 fill-red-500 transition-all duration-200 ease-in-out hover:fill-red-700"
+                            viewBox="0 0 256 256"
+                        >
+                            <path d="M224,44H32A12,12,0,0,0,20,56V192a20,20,0,0,0,20,20H216a20,20,0,0,0,20-20V56A12,12,0,0,0,224,44ZM193.15,68,128,127.72,62.85,68ZM44,188V83.28l75.89,69.57a12,12,0,0,0,16.22,0L212,83.28V188Z"></path>
+                        </svg>
+                    </a>
+                    <h3 class="text-lg hero-dev text-red-500">Google Mail</h3>
+                    <p class="text-lg mt-3">amikowilliam@gmail.com</p>
+                </div>
+
+                <!--======================  WhatsApp  ======================-->
+                <div class="flex flex-col justify-center items-center gap-2.5">
+                    <a href="https://wa.me/+6282170928096" target="_blank">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="w-20 h-20 fill-primary transition-all duration-200 ease-in-out hover:fill-teal-700"
+                            viewBox="0 0 256 256"
+                        >
+                            <path d="M187.58,144.84l-32-16a8,8,0,0,0-8,.5l-14.69,9.8a40.55,40.55,0,0,1-16-16l9.8-14.69a8,8,0,0,0,.5-8l-16-32A8,8,0,0,0,104,64a40,40,0,0,0-40,40,88.1,88.1,0,0,0,88,88,40,40,0,0,0,40-40A8,8,0,0,0,187.58,144.84ZM152,176a72.08,72.08,0,0,1-72-72A24,24,0,0,1,99.29,80.46l11.48,23L101,118a8,8,0,0,0-.73,7.51,56.47,56.47,0,0,0,30.15,30.15A8,8,0,0,0,138,155l14.61-9.74,23,11.48A24,24,0,0,1,152,176ZM128,24A104,104,0,0,0,36.18,176.88L24.83,210.93a16,16,0,0,0,20.24,20.24l34.05-11.35A104,104,0,1,0,128,24Zm0,192a87.87,87.87,0,0,1-44.06-11.81,8,8,0,0,0-6.54-.67L40,216,52.47,178.6a8,8,0,0,0-.66-6.54A88,88,0,1,1,128,216Z"></path>
+                        </svg>
+                    </a>
+                    <h3 class="text-lg hero-dev text-primary">WhatsApp</h3>
+                    <p class="text-lg mt-3">+62 821 7092 8096</p>
+                </div>
+            </div>
+        </div>
+
+        <!--======================  Footer  ======================-->
+        <footer class="flex justify-center items-center flex-end w-full h-16 bg-default text-gray-50 text-center text-sm">
+            Copyright © 2024 William Amiko | All rights reserved.
+        </footer>
+    </section>
+</main>
+
+<script src="dist/js/main.js"></script>
+</body>
+</html>
